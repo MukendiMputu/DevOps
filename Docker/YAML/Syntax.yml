@@ -1,0 +1,28 @@
+# --- begins a new section
+---
+New section:
+
+list:
+  - red
+  - green
+  - blue
+another-list: [red, green, blue]
+
+# Hash (or objects or dictionary)
+name: Mukendi Mputu
+age: 29
+
+compact-hash: { name: Mukendi Mputu, age: 29 }
+
+# | introduces a textblock respecting linebreaks
+Codeblock: |
+  print something
+  exit
+
+# > introduces a textblock conserving spaces but ignoring linebreaks
+textblock: >
+  Ignoring this
+  linebreak.
+
+  But keeping the spaces
+  in between.
