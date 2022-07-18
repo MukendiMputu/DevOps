@@ -1,7 +1,5 @@
-# --- begins a new section
----
-New section:
 
+--- # begins a new section
 list:
   - red
   - green
@@ -14,13 +12,13 @@ age: 29
 
 compact-hash: { name: Mukendi Mputu, age: 29 }
 
-# | introduces a textblock respecting linebreaks
-Codeblock: |
+
+Codeblock: | # introduces a textblock respecting linebreaks
   print something
   exit
 
-# > introduces a textblock conserving spaces but ignoring linebreaks
-textblock: >
+
+textblock: > # introduces a textblock conserving spaces but ignoring linebreaks
   Ignoring this
   linebreak.
 
